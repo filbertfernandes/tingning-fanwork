@@ -3,6 +3,7 @@ import Experience from './Experience.jsx'
 import { Suspense } from 'react';
 import Modal from './components/Modal.jsx';
 import { useMediaQuery } from 'react-responsive';
+import Credits from './components/Credits.jsx';
 
 const CanvasLoader = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
   return (
       <Suspense fallback={<CanvasLoader />}>
         <Modal />
+        <Credits />
         <Canvas
           camera={ {
             fov: isMobile ? 75 : 45,
