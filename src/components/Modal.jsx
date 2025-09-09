@@ -14,7 +14,7 @@ const Modal = ({ onClose }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
 			{showModal.type === 'trailer' ? (
-				<div className="relative w-[45vh] h-[25vh] flex items-center justify-center md:w-[70vw] md:h-[75vh]">
+				<div className="relative w-[45vh] h-[30vh] flex items-center justify-center md:w-[70vw] md:h-[75vh]">
 					<button
 						className="absolute -top-10 -right-2 z-50 flex items-center justify-center 
 										size-12 rounded-xl border-4 border-[#abf630] bg-[#316897] 
